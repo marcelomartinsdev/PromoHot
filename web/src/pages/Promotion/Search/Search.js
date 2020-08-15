@@ -1,9 +1,8 @@
-import React from "react";
-import PromotionCard from "./components/Promotion/Card/Card";
-import GlobalStyles from "./styles/GlobalStyles";
+import React from 'react';
+import PromotionCard from "../../../components/Promotion/Card/Card";
+import GlobalStyles from '../../../styles/GlobalStyles';
 
-function App() {
-  const promotion = {
+const promotion = {
     id: 1,
     title:
       "Kit Notebook Acer Aspire 3 + Mochila Green, A315-41-R790, AMD Ryzen 3 2200U Dual Core",
@@ -20,12 +19,14 @@ function App() {
     ],
   };
 
-  return (
+const PagesPromotionSearch = () => {
+
+    return (
     <>
       <PromotionCard promotion={promotion} />
       <GlobalStyles />
     </>
-  );
+    );
 }
 
-export default App;
+export default PagesPromotionSearch;

@@ -67,4 +67,7 @@ export const LinkPage = styled.a `
     text-decoration: none;
     padding: .5rem .6rem;
     font-size: .8rem;
+    @media (min-width: 600px) {
+        font-size: 1rem;
+    }
 `;
