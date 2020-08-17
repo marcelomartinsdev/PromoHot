@@ -29,6 +29,7 @@ export default createGlobalStyle`
         --color-border: #c3c3c3;
         --color-price: #3498DB;
         --color-comment: #95a5a6;
+        --color-title: #888;
     }
 
 `;
