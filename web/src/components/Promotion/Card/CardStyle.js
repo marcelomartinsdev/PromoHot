@@ -4,12 +4,16 @@ export const Card = styled.div`
   border-radius: 0.5rem;
   border: 1px solid var(--color-border);
   max-width: 50rem; /* 50 rem = 800px || 1 rem = 16px */
-  max-height: 10rem;
-  margin: 2rem auto;
+  height: 9.5rem;
+  margin: 1rem auto;
   box-shadow: 0 0.125rem 0.5rem 0 rgba(0, 0, 0, 0.15);
   display: flex;
   padding: 1rem;
   align-items: flex-start;
+  @media (min-width: 600px) {
+    height: 10.5rem;
+    margin: 2rem auto;
+  }
 `;
 
 export const Image = styled.img`
@@ -20,6 +24,7 @@ export const Image = styled.img`
 export const Title = styled.h1`
   font-size: 0.7rem;
   color: var(--color-card-text);
+  margin-bottom: 0.5rem;
   @media (min-width: 600px) {
     font-size: 1rem;
   }
@@ -48,6 +53,7 @@ export const Comment = styled.div`
 export const Footer = styled.footer`
   display: flex;
   align-items: center;
+  margin-top: 1rem;
 `;
 
 export const CommentsCount = styled.div`
