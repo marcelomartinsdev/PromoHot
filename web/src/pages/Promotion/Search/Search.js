@@ -12,6 +12,7 @@ const PagesPromotionSearch = () => {
   return (
     <>
 			<PromotionSearch />
+			<GlobalStyles />
     </>
   );
 };
